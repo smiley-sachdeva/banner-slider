@@ -8,10 +8,27 @@ import Banner4 from '../src/data/banner/banner4.jpg';
 
 const App = () => {
   const bannerImages = [
-    Banner1,
-    Banner2,
-    Banner3,
-    Banner4
+    {
+      "image": Banner1,
+      "title": 'Ten twenty',
+      "description": 'Welcome to Ten Twenty'
+    },
+    {
+      "image": Banner2,
+      "title": 'DUBAI',
+      "description": 'Welcome to DUBAI'
+    },
+    {
+      "image": Banner3,
+      "title": 'Lands',
+      "description": 'Welcome to Ten Twenty Lands'
+    },
+    {
+      "image": Banner4,
+      "title": 'Farms',
+      "description": 'Welcome to Ten Twenty Farms'
+    }
+    
   ];
 
   return (

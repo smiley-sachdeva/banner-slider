@@ -26,11 +26,11 @@ const BannerSlider = ({ images }) => {
   return (
     <div className="banner-slider">
       <button className="arrow prev" onClick={handlePrev}>&lt;</button>
-      <img className="banner-image" src={images[currentIndex]} alt={`Banner ${currentIndex + 1}`} />
+      <img className="banner-image" src={images[currentIndex]["image"]} alt={`Banner ${currentIndex + 1}`} />
       <button className="arrow next" onClick={handleNext}>&gt;</button>
-      <BannerInfo />
-      <BannerThumbnail img={images[(currentIndex + 1) % images.length]} onNext={handleNext} />
-      <BannerNav currentItem={(currentIndex + 1)} total={images.length}/>
+      <BannerInfo title={images[currentIndex]["title"]} description={images[currentIndex]["description"]} />
+      <BannerThumbnail img={images[(currentIndex + 1) % images.length]["image"]} onNext={handleNext} />
+      <BannerNav currentItem={(currentIndex + 1)} total={images.length} />
     </div>
   );
 };
