@@ -1,0 +1,32 @@
+/* BannerSlider styles */
+$width: 100vw;
+$height: 100vh;
+
+.banner-slider {
+  position: relative;
+  width: 100%;
+  height: $height; 
+  overflow: hidden;
+
+  .banner-image{
+    width: $width;
+    height: $height;
+  }  
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &.prev {
+      left: 10px;
+    }
+
+    &.next {
+      right: 10px;
+    }
+  }
+}

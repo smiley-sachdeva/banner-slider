@@ -1,0 +1,16 @@
+
+/* Banner Nav styles*/
+.bannerNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: -49%;
+    left: 20%;
+
+    .bannerDivider{
+        margin: 0 10px 0 10px;
+        border-top: 1px solid white;
+        width: 5%;
+    }
+}
