@@ -1,4 +1,4 @@
-# Your React App Name
+# Banner Slider
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![React Version](https://img.shields.io/badge/react-18.2.0-blue.svg)](https://reactjs.org/)
