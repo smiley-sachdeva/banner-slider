@@ -37,7 +37,7 @@ A showcase web application that employs a banner slider featuring animations, bu
     ```bash
     npm start
 
-2.Visit http://localhost:8080/ on your browser
+2. Visit http://localhost:8080/ on your browser
 
 
 
